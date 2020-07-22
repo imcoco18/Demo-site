@@ -1,3 +1,49 @@
+
 // Place all the styles related to the Home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+
+body {
+  display: flex;
+  flex-flow: column; //要素を縦に並べる
+  min-height: 100vh; //最小でも画面の高さ分のbodyの高さを担保する
+	font-family: 'Arial','Avenir',sans-serif;
+}
+
+main {
+  flex: 1; //画面の高さから他の同レイヤーの要素の高さを引いた値に
+}
+
+ul {
+  list-style: none;
+}
+/* ---------------------------- */
+header {
+	width: 100%;
+	text-align: center;
+
+	& span {
+	color: #9acc1e;
+	}
+	& ul {
+	display: inline-block;
+	text-align: center;
+	}
+	& li {
+	float: left;
+	padding: 12px 25px;
+	}
+	& h1 {
+	padding: 50px 0;
+	}
+}

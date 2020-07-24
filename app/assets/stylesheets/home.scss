@@ -72,10 +72,11 @@ footer {
 	width: 35%;
 	float: left;
 	}
-	& .tag-contents {
-	font-size: 0.55rem !important;
+	& .tag-contents a{
   background: rgba(255, 255, 255, 0.25);
   color: #fff!important;
+  font-size: 10px;
+  padding: 4px 8px;
 	}
 	& .footer-box {
 	border-top: 1px solid #fff;

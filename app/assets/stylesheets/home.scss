@@ -47,3 +47,45 @@ header {
 	padding: 50px 0;
 	}
 }
+
+/* ---------------------------- */
+footer {
+	background-color: #393542;
+	padding: 15px 0px;
+	color: #fff!important;
+
+	& .footer-left {
+	float: left;
+	width: 35%;
+	}
+	& .footer-left img {
+	width: 120px;
+	}
+	& .footer-center {
+	float: left;
+	width: 35%;
+	}
+	& .category {
+	float: left;
+	}
+	& .footer-right {
+	width: 35%;
+	float: left;
+	}
+	& .tag-contents {
+	font-size: 0.55rem !important;
+  background: rgba(255, 255, 255, 0.25);
+  color: #fff!important;
+	}
+	& .footer-box {
+	border-top: 1px solid #fff;
+	padding-top: 15px;
+	}
+	& .footer-inner {
+	display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 300;
+  font-size: 12px;
+	}
+}

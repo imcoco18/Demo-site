@@ -92,6 +92,11 @@ footer {
 }
 /* ---------------------------- */
 
+.post-list {
+	display: flex;
+	flex-flow: row wrap;
+}
+
 .post-list-item {
 	position: relative;
 	border-radius: 2px;
@@ -127,5 +132,27 @@ footer {
   position: absolute;
   bottom: 0px;
   left: 5%;
+	}
+}
+
+.side-bar {
+	width: 350px;
+
+	& .side1 img {
+	width: 310px;
+	height: 230px;
+	}
+	& .side2 img {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	}
+	& .side3 img {
+	width: 97px;
+	height: 54px;
+	}
+	& .side7 img {
+	width: 97px;
+	height: 54px;
 	}
 }
